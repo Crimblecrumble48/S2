@@ -1,0 +1,10 @@
+nav li{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer{
+    position:fixed;
+    
+}
