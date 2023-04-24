@@ -1,7 +1,7 @@
-const boxes = document.querySelectorAll(".Navigation");
+const boxes = document.querySelectorAll(".box");
 
-		boxes.forEach((Navigation) => {
-			Navigation.addEventListener("mouseleave", () => {
-				Navigation.querySelector(".overlay").style.transform = "translateX(100%)";
+		boxes.forEach((box) => {
+			box.addEventListener("mouseleave", () => {
+				box.querySelector(".overlay").style.transform = "translateY(150%)";
 			});
 		});

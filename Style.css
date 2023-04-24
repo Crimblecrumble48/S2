@@ -4,32 +4,37 @@ body{
     padding:0;
 }
 
-.Display{
-    display:flex;
-    height:150%;
+.container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-wrap:wrap;
-    align-items:center;
+    align-items: center;
+    height: 100vh;
     overflow: hidden;
 }
 
-.Navigation{
+.box {
     position: relative;
-	width: 250px;
-	height: 250px;
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0px 0px 10px #ccc;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: all 0.3s ease;
-	margin-bottom: 20px;
-	box-sizing: border-box;
-	padding: 20px;
-	cursor: pointer;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    cursor: pointer;
 }
-.SecondMessage{
+
+.box:hover .overlay {
+    transform: translateX(50%);
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 100%;
@@ -39,27 +44,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(100%);
-    transition: all 0.3s ease;
+    transform: translateX(150%);
+    transition: all 0.5s ease;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.Navigation:hover .SecondMessage {
-    transform: translateX(0%);
-}
-
-.Navigation h2{
+h2 {
     margin: 0;
-	font-size: 24px;
-	text-align: center;
-}
-
-.Navigation p{
-    margin: 0;
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
 }
+
+p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
 
 nav li{
     list-style-type: none;
