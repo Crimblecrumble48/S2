@@ -1,9 +1,12 @@
 body{
     background-color: rgba(212, 212, 212, 0.767);
+    margin:0;
+    padding:0;
 }
 
 .Display{
     display:flex;
+    height:150%;
     justify-content: space-evenly;
     flex-wrap:wrap;
     align-items:center;
@@ -26,7 +29,7 @@ body{
 	padding: 20px;
 	cursor: pointer;
 }
-.overlay{
+.SecondMessage{
     position: absolute;
     top: 0;
     left: 100%;
@@ -42,11 +45,11 @@ body{
     box-sizing: border-box;
 }
 
-.Navigation:hover .overlay {
+.Navigation:hover .SecondMessage {
     transform: translateX(0%);
 }
 
-.Navigation h1{
+.Navigation h2{
     margin: 0;
 	font-size: 24px;
 	text-align: center;
