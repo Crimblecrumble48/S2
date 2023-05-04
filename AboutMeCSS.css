@@ -1,0 +1,23 @@
+Main {
+    float: right;
+    width: 65%;
+    padding-left: 3%;
+    margin-top: 1%;
+    font-family: Helvetica;
+    background-color: rgba(0, 0, 0, 0.400);
+    backdrop-filter:blur(2px);
+    border-radius:5%;
+}
+.Profile{
+    margin-left:7.5%;
+    margin-top:2%;
+}
+
+#Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 500px;
+}
