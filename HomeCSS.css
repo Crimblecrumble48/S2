@@ -6,17 +6,17 @@
     align-items: center;
     grid-template-columns: repeat (1, 1fr);
     grid-template-rows: repeat (1, 1fr);
-    height:650px;
-    background: linear-gradient(#2bd3e9e5, #090e46);
+    height:610px;
+    background: linear-gradient(#22acbee3, #090e46);
     margin:8%;
     box-shadow: 0px 3px 30px 30px black;
     border-radius: 15%;
 
 }
-h1{
-    
+h1{  
     display:flex;
     justify-content: center;
+    font-size:50px;
 }
 
 .HomeLink {
@@ -33,7 +33,7 @@ h1{
     position: relative;
     width: 260px;
     height: 250px;
-    border: 2px solid rgba(48, 6, 163, 0.24);
+    border: 2px solid rgba(41, 6, 136, 0.158);
     border-radius: 45px;
     backdrop-filter: blur(1.5px);
     display: flex;
@@ -67,8 +67,8 @@ h1{
     align-items: center;
     transform: translateY(2%);
     transition: all 1s ease;
-    padding: 75px;
-    border-radius: 10%;
+    padding: 70px;
+    border-radius: 15%;
     z-index: -1;
     opacity:0;
     
