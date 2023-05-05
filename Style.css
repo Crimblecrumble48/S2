@@ -3,7 +3,7 @@ body {
     padding: 0;
     color: white;
 }
-
+/*Nav Bar within Header Flex Box*/
 nav li {
     list-style-type: none;
     text-decoration: none;
@@ -25,14 +25,8 @@ nav li a:visited {
     color: white;
 }
 
-.HomeLink {
-    margin: 0;
-    font-size: 24px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
 
+/*Header Flex box*/
 .FlexContainer {
     border-radius: 25px;
     height: fit-content;
