@@ -1,0 +1,12 @@
+.BlogEntry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+}
+
+.BlogEntry1 {
+    color: red;
+
+}
