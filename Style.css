@@ -3,18 +3,6 @@ body {
     padding: 0;
     color: white;
 }
-/*Nav Bar within Header Flex Box*/
-nav li {
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: space-between;
-    text-align: center;
-    display: inline-block;
-    padding: 20px 20px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    color: white;
-}
 
 nav a:link {
     text-decoration: none;
@@ -31,13 +19,15 @@ nav li a:visited {
     border-radius: 25px;
     height: fit-content;
     display: flex;
-    background-color: rgba(255, 250, 250, 0.4);
-    backdrop-filter: blur(5px);
+    background-color: rgba(255, 250, 250, 0.144);
+    backdrop-filter: blur(3px);
     align-items: center;
     justify-content: space-around;
     padding: 0 10px;
     margin: 50px 0 0 0;
+    
 }
+/*Nav Bar within Header Flex Box*/
     nav li {
     list-style: none;
     display:inline-block;
@@ -51,25 +41,17 @@ nav li a:visited {
     white-space: nowrap;
     font-family: sans-serif;
     text-transform: uppercase;
-    }
-    nav li::before {
-        content: " ";
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        transition: .2s;
-        border-radius: 25px;
+
     }
 
-    nav li:hover .FlexContainer{
-       
-            background: linear-gradient(to bottom, #e8edec, #d2d1d3);
-            box-shadow: 0px 3px 20px 0px black;
-            transform: scale(1.2);
-        }
+
+ nav a:hover {    
+    background: linear-gradient(to bottom, #030570, #42186c);
+    box-shadow: 0px 3px 20px 0px black;
+    border-radius: 7px;
+    transition: all 2s ease-in-out;
+    transform:scale(2);
+    }
 
 
 
