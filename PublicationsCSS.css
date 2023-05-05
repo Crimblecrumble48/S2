@@ -1,0 +1,10 @@
+aside {
+    float: right;
+    width: 35%;
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+aside {
+    list-style-type: none;
+}
