@@ -11,6 +11,7 @@
     margin:8%;
     box-shadow: 0px 3px 30px 30px black;
     border-radius: 15%;
+    transform: all 0.5s ease-in;
 
 }
 h1{  
@@ -27,6 +28,7 @@ h1{
     text-decoration: none;
     font-family:calibri;
     text-transform: uppercase;
+    transform: all 0.5s ease-in;
 }
 
 .box {
@@ -45,6 +47,7 @@ h1{
     padding: 35px;
     cursor: pointer;
     z-index: 2;
+    transform: all 0.5s ease-in;
 }
 
 .box:hover .overlay {
