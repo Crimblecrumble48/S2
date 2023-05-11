@@ -3,7 +3,7 @@ Main {
     width: 65%;
     padding-left: 3%;
     margin-top: 1%;
-    font-family: Helvetica;
+    font-family: Lucida Sans;
     background-color: rgba(0, 0, 0, 0.400);
     backdrop-filter:blur(2px);
     border-radius:5%;
@@ -36,7 +36,6 @@ font-size: 30px;
 }
 
 li a:link {
-    text-decoration: underline;
     color:white;
     padding:15%;
 }
