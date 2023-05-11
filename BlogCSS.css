@@ -1,18 +1,28 @@
 .BlogEntry {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 500px;
-    width:100px;
+    float:left;
+    width:10%;
+    padding:3%;
+    font-size: 25%;
+
 }
 
 button{
     background: none;
     color:white;
-    
+    font-size: 20px;
+
 }
 
 main{
     float:right;
+}
+
+article{
+    background-color: grey;
+    float:right;
+    width:80%;
+    padding:2%;
+    border:1%;
+    border-radius: 2%;
+
 }
