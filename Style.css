@@ -2,6 +2,7 @@ body {
     background-image: url(img/Background.jpg);
     padding: 0;
     color: white;
+    font-family:Courier;
 }
 
 nav a:link {
@@ -30,27 +31,24 @@ nav li a:visited {
 /*Nav Bar within Header Flex Box*/
     nav li {
     list-style: none;
+    font-size:20px;
     display:inline-block;
     color: white;
-    font-family: sans-serif;
     font-weight: bold;
     padding: 12px 16px;
-    margin: 0 8px;
+    margin: 0 1px;
     position: relative;
     cursor: pointer;
     white-space: nowrap;
-    font-family: sans-serif;
     text-transform: uppercase;
-
     }
 
 
  nav a:hover {    
     background: linear-gradient(to bottom, #030570, #42186c);
-    box-shadow: 0px 3px 20px 0px black;
-    border-radius: 7px;
+    border-radius: 1px;
     transition: all 2s ease-in-out;
-    transform:scale(2);
+    transform:scale(1);
     }
 
 
