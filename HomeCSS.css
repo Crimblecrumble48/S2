@@ -24,9 +24,8 @@ h1{
     margin: 0;
     font-size: 24px;
     text-align: center;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-family:calibri;
+    color: rgb(255, 255, 255);
+    text-decoration:solid;
     text-transform: uppercase;
     transform: all 0.5s ease-in;
 }
@@ -63,15 +62,14 @@ h1{
 .overlay {
     position:fixed;
     width: 100px;
-    height: 60px;
+    height: 50px;
     background-color: #0758c26e;
     backdrop-filter:blur(1px);
-    border: 50px;
     align-items: center;
     transform: translateY(2%);
     transition: all 1s ease;
     padding: 70px;
-    border-radius: 15%;
+    border-radius: 10%;
     z-index: -1;
     opacity:0;
     
