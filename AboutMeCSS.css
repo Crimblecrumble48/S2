@@ -22,3 +22,27 @@ Main {
   justify-content: space-around;
    
 }
+
+
+.Links{
+    list-style: none;
+    display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+align-content:center;
+padding:5%;
+font-size: 30px;
+
+}
+
+li a:link {
+    text-decoration: underline;
+    color:white;
+    padding:15%;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+    
