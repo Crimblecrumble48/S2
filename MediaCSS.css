@@ -1,15 +1,31 @@
-#Video1 {
+.mediaContainer{
+    background-color: black;
+}
+
+
+.videoRight {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    flex-grow: 1;
+}
+.videoLeft{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+h2 {
+    color: white;
     background-color: black;
+
 }
 
-#Video1 h2 {
+p {
     color: white;
 }
 
-#Video1 p {
-    color: white;
-}
