@@ -13,10 +13,6 @@ button{
 
 }
 
-main{
-    float:right;
-}
-
 article{
     background-color: grey;
     float:right;
@@ -24,5 +20,6 @@ article{
     padding:2%;
     border:1%;
     border-radius: 2%;
+    display:none;
 
 }
