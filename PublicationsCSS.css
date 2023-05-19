@@ -13,7 +13,11 @@ aside {
 
 .publications{
    display:flex;
-   flex-direction: column;
-   grid-column-start: (1, 1);
+   flex-direction: row-reverse;
+   justify-content: space-between;
 
+}
+
+article{
+    float:left;
 }
