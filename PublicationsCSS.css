@@ -3,8 +3,17 @@ aside {
     width: 35%;
     padding-left: 3%;
     margin-top: 1%;
+    border:4px solid black;
+    text-align: center;
 }
 
 aside {
     list-style-type: none;
+}
+
+.publications{
+   display:flex;
+   flex-direction: column;
+   grid-column-start: (1, 1);
+
 }
