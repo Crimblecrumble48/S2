@@ -36,8 +36,7 @@ font-size: 30px;
 }
 
 li a:link {
-    color:white;
-    padding:15%;
+    color:white;  
 }
 
 li a:visited {
