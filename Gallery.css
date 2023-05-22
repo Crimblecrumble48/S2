@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+  }
+  
+  .photo {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    transition: transform 0.3s;
+  }
+  
+  .photo:hover {
+    transform: scale(1.3);
+    z-index: 1;
+   
+  }
+  
+  .photo:not(:hover) {
+    transition: transform 0.3s;
+  }
+  
+  .photo.enlarged {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 400px;
+    z-index: 2;
+  }
