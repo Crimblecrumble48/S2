@@ -41,3 +41,10 @@ function BlogEntry(input){
         document.getElementById('a4').style.display = "none"
     }
 }
+function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(51.438481,-0.937257),
+      zoom:15,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }

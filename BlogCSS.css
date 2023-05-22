@@ -12,13 +12,14 @@ button{
     background: none;
     color:white;
     font-size: 18px;
-    background-color: rgba(128, 128, 128, 0.904);
+    background-color: rgba(65, 64, 64, 0.804);
     padding:10px;
+    border-radius:20px;
 }
 
 article{
     background-color: rgba(0, 0, 0, 0.400);
-    backdrop-filter:blur(2px);
+    backdrop-filter:blur(4px);
     float:right;
     width:80%;
     padding:1%;
