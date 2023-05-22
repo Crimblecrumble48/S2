@@ -28,7 +28,7 @@ Main {
     list-style: none;
     display:flex;
 flex-direction:column;
-flex-wrap:wrap;
+flex-wrap:nowrap;
 align-content:center;
 padding:5%;
 font-size: 30px;
