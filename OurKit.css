@@ -5,17 +5,25 @@
     backdrop-filter:blur(4px);
     border-radius:5%;
 }
+h1{
+    text-align: center;
+    padding:1%;
+}
 .equipmentBio{
-  
+    text-align:justify;
+    padding:1%;
+  }
+img{
+    border-radius:5%;
 }
 
 .equipmentOne{
     display:flex;
-    align-items: center;
-    overflow:hidden;
+    align-items: center; 
 }
 .equipmentOne p{
     margin-left:2%;
+    margin-right:2%;
     opacity: 0;
   transition: opacity 0.3s;
 }
@@ -26,13 +34,99 @@
     transition: opacity 0.3s;
 }
 
-.equipmentOne img:hover + p{
+.equipmentOne:hover p{
     transform: translateX(1%);
     opacity: 1;
     transition: transform 0.3s, opacity 0.3s;
 } 
-.equipmentOne img:hover + h2{
-    transform: translateX(-10%);
+.equipmentOne:hover h2{
+    transform: translateX(-8%);
     opacity: 1;
     transition: transform 0.3s, opacity 0.3s;
 }  
+.equipmentTwo{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.equipmentTwo p{
+    margin-left:2%;
+    margin-right:2%;
+    opacity: 0;
+  transition: opacity 0.3s;
+}
+.equipmentTwo h2{
+    padding: 1%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.equipmentTwo:hover p{
+    transform: translateX(-4%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
+.equipmentTwo:hover h2{
+    transform: translateX(1%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
+.equipmentThree{
+    display:flex;
+    align-items: center;
+    
+}
+.equipmentThree p{
+    margin-left:2%;
+    margin-right:2%;
+    opacity: 0;
+  transition: opacity 0.3s;
+}
+.equipmentThree h2{
+    padding: 1%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.equipmentThree:hover p{
+    transform: translateX(1%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
+.equipmentThree:hover h2{
+    transform: translateX(-4%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
+.equipmentFour{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.equipmentFour p{
+    margin-left:2%;
+    margin-right:2%;
+    opacity: 0;
+  transition: opacity 0.3s;
+}
+.equipmentFour h2{
+    padding: 1%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.equipmentFour:hover p{
+    transform: translateX(-4%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
+.equipmentFour:hover h2{
+    transform: translateX(1%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
