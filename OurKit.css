@@ -12,9 +12,27 @@
 .equipmentOne{
     display:flex;
     align-items: center;
+    overflow:hidden;
 }
-.equipmentOne img {
-    order: 1;
-    margin-left: auto;
-    margin-right: 20px;
-  }
+.equipmentOne p{
+    margin-left:2%;
+    opacity: 0;
+  transition: opacity 0.3s;
+}
+.equipmentOne h2{
+    padding: 1%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.equipmentOne img:hover + p{
+    transform: translateX(1%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+} 
+.equipmentOne img:hover + h2{
+    transform: translateX(-10%);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+}  
