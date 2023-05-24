@@ -1,5 +1,9 @@
 .mediaContainer{
-    background-color: black;
+    padding-left: 3%;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.400);
+    backdrop-filter:blur(4px);
+    border-radius:5%;
 }
 
 
@@ -9,6 +13,7 @@
     flex-wrap: nowrap;
     align-items: center;
     flex-grow: 1;
+    
 }
 .videoLeft{
     display: flex;
@@ -21,7 +26,7 @@
 
 h2 {
     color: white;
-    background-color: black;
+    
 
 }
 
