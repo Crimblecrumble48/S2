@@ -1,3 +1,28 @@
-body{
+.labMain{
+    padding-left: 3%;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.400);
+    backdrop-filter:blur(4px);
+    border-radius:5%;
+}
+.researcherOne{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    padding:2%;
+}
+h2{
+    margin-left:1%;
     text-align: center;
+}
+.researcherTwo{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    padding:2%;
+}
+img{
+    border-radius:2%;
 }
