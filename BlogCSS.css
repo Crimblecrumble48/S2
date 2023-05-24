@@ -26,5 +26,8 @@ article{
     border:1%;
     border-radius: 2%;
     display:none;
-
+}
+h2{
+    font-size: 30px;
+    text-align: center;
 }
