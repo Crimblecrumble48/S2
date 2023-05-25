@@ -12,12 +12,14 @@
     box-shadow: 0px 3px 30px 30px black;
     border-radius: 15%;
     transform: all 0.5s ease-in;
+    font-family:Courier;
 
 }
 h1{  
     display:flex;
     justify-content: center;
     font-size:50px;
+    font-family:Courier;
 }
 
 .HomeLink {
