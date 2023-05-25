@@ -9,7 +9,7 @@
 	<link rel="Stylesheet" href="TheLab.css">
 </head>
 <html>
-<body>
+<body onload="myMap()">
 <header class="FlexContainer">
 <nav>
 <li><a href="Home.html">Home</a></li>
@@ -20,22 +20,10 @@
 </nav>
 </header>
 <div class="labMain">
-<div class="googleMap">
-
-    <h1>THE CINN PAIN LAB</h1>
+<h1>THE CINN PAIN LAB</h1>
+    <div class="googleMap">
+    <div id="googleMap" style="width:75%;height:400px;"></div>
     
-    <div id="googleMap" style="width:50%;height:400px;"></div>
-    <script>
-    function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(51.438481,-0.937257),
-          zoom:15,
-          title: "CINN",
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        
-        }
-    </script> 
     </div>
 
 <div class="researcherOne">
