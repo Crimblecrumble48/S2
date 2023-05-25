@@ -1,11 +1,10 @@
 .BlogEntry {
     width:15%;
     padding:1%;
-    font-size: 25%;
+    font-size: 18px;
     display:flex;
     flex-direction: column;
     float:left;
-
 }
 
 button{
@@ -23,11 +22,16 @@ article{
     float:right;
     width:80%;
     padding:1%;
-    border:1%;
-    border-radius: 2%;
     display:none;
+    border-radius:2%;
+    font-family:'Trebuchet MS';
+    font-size:19px;
+    
 }
 h2{
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
+}
+p{
+    padding:3%;
 }
