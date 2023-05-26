@@ -1,35 +1,35 @@
-.mediaContainer{
+.mediaContainer{ /* Container for the media */
     padding-left: 3%;
     margin-top: 1%;
-    background-color: rgba(0, 0, 0, 0.400);
-    backdrop-filter:blur(4px);
+    background-color: rgba(0, 0, 0, 0.400); /* Black background with transparency */
+    backdrop-filter:blur(4px); /* Blur effect */
     border-radius:5%;
     padding:2%;
 }
 
 
-.videoRight {
+.videoRight { /* Right video container */
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Difference between Left and Right video container*/
     flex-wrap: nowrap;
     align-items: center;
     flex-grow: 1;
+
     
     
 }
-.videoLeft{
+.videoLeft{ /* Left video container */
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /*Difference between Left and Right video container*/
     flex-wrap: nowrap;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 1;  
 
 }
 
 h2{
     color: white;
     text-decoration:underline;
-
 }
 
 p {
