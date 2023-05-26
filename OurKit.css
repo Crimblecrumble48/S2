@@ -1,4 +1,4 @@
-.ourEquipment{
+.ourEquipment{ /* Our Equipment Div Class */
     padding-left: 3%;
     margin-top: 1%;
     background-color: rgba(0, 0, 0, 0.400);
@@ -11,7 +11,7 @@ h1{
     text-align: center;
     padding:1%;
 }
-.equipmentBio{
+.equipmentBio{ /* Equipment Bio Div Class */
     text-align:justify;
     padding:1%;
   }
@@ -19,61 +19,61 @@ img{
     border-radius:5%;
 }
 
-.equipmentOne{
+.equipmentOne{ /* Equipment One Div Class */
     display:flex;
     align-items: center; 
 }
-.equipmentOne p{
+.equipmentOne p{ /* Equipment One Paragraph Class */
     margin-left:2%;
     margin-right:2%;
-    opacity: 0;
+    opacity: 0; /* Paragraph is invisible */
   transition: opacity 0.3s;
 }
-.equipmentOne h2{
+.equipmentOne h2{ /* Equipment One Header Class */
     padding: 1%;
     text-align: center;
-    opacity: 0;
+    opacity: 0; /* Header is invisible */
     transition: opacity 0.3s;
 }
 
-.equipmentOne:hover p{
-    transform: translateX(1%);
-    opacity: 1;
-    transition: transform 0.3s, opacity 0.3s;
+.equipmentOne:hover p{ /* Equipment One Paragraph Hover Class */
+    transform: translateX(1%); /* Moves the paragraph to the right */
+    opacity: 1; /* Paragraph is visible */
+    transition: transform 0.3s, opacity 0.3s; /* Paragraph moves to the right and becomes visible */
 } 
-.equipmentOne:hover h2{
-    transform: translateX(-8%);
+.equipmentOne:hover h2{ /* Equipment One Header Hover Class */
+    transform: translateX(-8%); /* Moves the header to the left */
     opacity: 1;
-    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s; /* Header moves to the left and becomes visible */
 }  
-.equipmentTwo{
+.equipmentTwo{ /* Equipment Two Div Class */
     display:flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /*Difference between Left and Right video container*/
     align-items: center;
     
 }
-.equipmentTwo p{
+.equipmentTwo p{ /* Equipment Two Paragraph Class */
     margin-left:2%;
     margin-right:2%;
-    opacity: 0;
-    transition: opacity 0.3s;
+    opacity: 0; /* Paragraph is invisible */
+    transition: opacity 0.3s; /* Paragraph becomes visible */
 }
 .equipmentTwo h2{
     padding: 1%;
     text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s;
+    opacity: 0; /* Header is invisible */
+    transition: opacity 0.3s; /* Header becomes visible */
 }
 
 .equipmentTwo:hover p{
-    transform: translateX(-4%);
-    opacity: 1;
+    transform: translateX(-4%); /* Moves the paragraph to the left */
+    opacity: 1; /* Paragraph is visible */
     transition: transform 0.3s, opacity 0.3s;
 } 
 .equipmentTwo:hover h2{
-    transform: translateX(1%);
-    opacity: 1;
-    transition: transform 0.3s, opacity 0.3s;
+    transform: translateX(1%); /* Moves the header to the right */
+    opacity: 1; /* Header is visible */
+    transition: transform 0.3s, opacity 0.3s; /* Header moves to the right and becomes visible */
 } 
 .equipmentThree{
     display:flex;
