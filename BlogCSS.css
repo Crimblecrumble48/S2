@@ -1,22 +1,22 @@
-.BlogEntry {
+.BlogEntry { /* BlogEntry is the class name for the div that contains the blog entry */
     width:15%;
     padding:1%;
     font-size: 18px;
     display:flex;
-    flex-direction: column;
-    float:left;
+    flex-direction: column; /* This is the key to making the divs stack on top of each other */
+    float:left; /* This is the key to making the divstay to the left of the page */
 }
 
-button{
+button{ /* This is the button that is used to show the blog entry */
     background: none;
     color:white;
     font-size: 18px;
-    background-color: rgba(65, 64, 64, 0.804);
+    background-color: rgba(65, 64, 64, 0.804); /* This is the colour of the button */
     padding:10px;
     border-radius:20px;
 }
 
-article{
+article{ /* This is the article div that contains the blog entry */
     background-color: rgba(0, 0, 0, 0.400);
     backdrop-filter:blur(4px);
     float:right;
@@ -24,14 +24,14 @@ article{
     padding:1%;
     display:none;
     border-radius:2%;
-    font-family:'Trebuchet MS';
+    font-family:'Trebuchet MS'; 
     font-size:19px;
     
 }
-h2{
+h2{ /* This is the title of the blog entry */
     font-size: 28px;
     text-align: center;
 }
-p{
+p{ /* This is the text of the blog entries */
     padding:3%;
 }
