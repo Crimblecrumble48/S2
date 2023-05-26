@@ -1,53 +1,52 @@
-Main {
-    float: right;
-    width: 65%;
+Main { /* Main is the body of the page */
+    float: right; /*move the body to the right of the page, away from the profile picture */
+    width: 65%; /*make the body 65% of the page */
     padding-left: 3%;
     margin-top: 1%;
-    background-color: rgba(0, 0, 0, 0.400);
-    backdrop-filter:blur(4px);
+    background-color: rgba(0, 0, 0, 0.400); /*transparent background */
+    backdrop-filter:blur(4px); /*blur the background */
     border-radius:5%;
     font-size:18px;
 }
-.Profile{
-    margin-left:10%;
-    margin-top:2%;
+.Profile{  /* Profile is the profile picture and the links to the other pages */
+    margin-left:10%; /*move the profile to the left of the page */
+    margin-top:2%; /*move the profile down from the top of the page */
     border-radius: 4px;
-    box-shadow: 0px 4px 3px 3px black;
+    box-shadow: 0px 4px 3px 3px black; /*add a shadow to the profile */
 }
 
 
-#Images {
-    display: flex;
-    flex-wrap: wrap;
-  justify-content: space-around;
+#Images { /* Images is the div that contains the 4 images for social medias */
+    display: flex;  /*make the div a flexbox */
+    flex-wrap: wrap;    /*wrap the images if they are too big for the div */
+  justify-content: space-around; /*space the images evenly in the div */
   padding:1%;
    
 }
 
 
-.Links{
-    list-style: none;
+.Links{ /* Links is the div that contains the links to the other pages */
+    list-style: none; /*remove the bullet points from the list */
     display:flex;
-flex-direction:column;
-flex-wrap:nowrap;
-align-content:center;
-align-items: center;
+flex-direction:column; /*make the div a flexbox and make the links go down the page */
+flex-wrap:nowrap; /*make the links not wrap if they are too big for the div */
+align-items: center;  /*center the links in the div */
 padding:5%;
 font-size: 30px;
-font-family:Courier;
+font-family:Courier; /* Set a seperate font family aside from the main font*/
 
 }
 
-li a:link {
-    color:white;  
+li a:link { 
+    color:white;  /*make the links white */
 }
 
-li a:visited {
+li a:visited { 
     text-decoration: none;
-    color: white;
+    color: white; /*make the links white, even after they have been clicked on, to avoid the blue colour */
 }
 
 ul{
-    list-style-type: none;
+    list-style-type: none; /*remove the bullet points from the list */
     
 }
