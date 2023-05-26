@@ -1,4 +1,4 @@
-.labMain{
+.labMain{ /* TheLab Div */
     padding-left: 3%;
     margin-top: 1%;
     background-color: rgba(0, 0, 0, 0.400);
@@ -7,9 +7,9 @@
     padding:2%;
     font-size:17px;
 }
-.researcherOne{
+.researcherOne{ /* ResearcherOne Div */
     display:flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: flex-start;
     align-items:center;
     padding:2%;
@@ -22,7 +22,7 @@ h2{
     margin-left:1%;
     text-align: center;
 }
-.researcherTwo{
+.researcherTwo{ /* ResearcherTwo Div */
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -33,8 +33,15 @@ img{
     border-radius:2%;
 }
 
-.googleMap{
-display:flex;
+#googleMap{ 
+display:block; /* Display the map */
+margin:0 auto; /* Center the map */
+width:75%;
+height:400px;
 justify-content: space-around;
 padding:2%;
+border:4px solid black; /* Border around the map */
+border-radius:2%; /* Rounded corners */
 }
+
+
