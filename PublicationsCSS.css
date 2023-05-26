@@ -1,8 +1,8 @@
-.publications{
+.publications{ /* publications */
     padding-left: 3%;
     margin-top: 1%;
-    background-color: rgba(0, 0, 0, 0.400);
-    backdrop-filter:blur(4px);
+    background-color: rgba(0, 0, 0, 0.400); /* Black background with transparency */
+    backdrop-filter:blur(4px); /* Blur effect */
     border-radius:5%;
     padding:2%;
 }
