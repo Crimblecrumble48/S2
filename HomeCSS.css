@@ -1,87 +1,86 @@
-.HomeScreen {
-    display: flex;
+.HomeScreen { /* Flex box for the home screen */
+    display: flex; /* Display as a flex box */
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around; /* Space around the items in the flex box */
     align-content: normal;
     align-items: center;
-    grid-template-columns: repeat (1, 1fr);
-    grid-template-rows: repeat (1, 1fr);
+    grid-template-columns: repeat (1, 1fr); /* Repeat the columns 1fr each */
+    grid-template-rows: repeat (1, 1fr); /* Repeat the rows 1fr each */
     height:610px;
-    background: linear-gradient(#22acbee3, #090e46);
+    background: linear-gradient(#22acbee3, #090e46); /*gradient background for the home screen */
     margin:8%;
-    box-shadow: 0px 3px 30px 30px black;
+    box-shadow: 0px 3px 30px 30px black; /* Box shadow for the home screen */
     border-radius: 15%;
-    transform: all 0.5s ease-in;
+    transform: all 0.5s ease-in; /* Transition for the home screen */
     font-family:Courier;
 
 }
-h1{  
+h1{   /* Styling for the h1 tag */
     display:flex;
     justify-content: center;
     font-size:50px;
     font-family:Courier;
 }
 
-.HomeLink {
+.HomeLink { /* Flex box for the home screen links */
     margin: 0;
     font-size: 24px;
     text-align: center;
     color: rgb(255, 255, 255);
     text-decoration:solid;
     text-transform: uppercase;
-    transform: all 0.5s ease-in;
+    transform: all 0.5s ease-in; /* Transition for the home screen links */
 }
 
-.box {
-    position: relative;
+.box { /* Flex box for the boxes on the home screen */
+    position: relative; /* Position the boxes */
     width: 260px;
     height: 250px;
-    border: 2px solid rgba(41, 6, 136, 0.158);
+    border: 2px solid rgba(41, 6, 136, 0.158); /* Border for the boxes */
     border-radius: 45px;
-    backdrop-filter: blur(1.5px);
-    display: flex;
-    justify-content: center;
+    backdrop-filter: blur(1.5px); /* Blur the boxes */
+    display: flex; /* Display as a flex box */
+    justify-content: center; /* Space around the items in the flex box */
     align-items: center;
     transition: all 0.5s ease;
     margin-bottom: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Box sizing for the boxes */
     padding: 35px;
-    cursor: pointer;
-    z-index: 2;
-    transform: all 0.5s ease-in;
+    cursor: pointer; /* Cursor for the boxes */
+    z-index: 2; /* Z-index for the boxes */
+    transform: all 0.5s ease-in; /* Transition for the boxes */
 }
 
-.box:hover .overlay {
-    transform: translateY(90%);
-    z-index: 1;
-    opacity: 1;
+.box:hover .overlay { /* Hover over the boxes */
+    transform: translateY(90%); /* Transform the boxes */
+    z-index: 1; /* Z-index for the boxes */
+    opacity: 1; /* Opacity for the boxes, when it's hovered make it visible */
 }
 
-.box:hover .overlay p {
-    opacity: 1;
+.box:hover .overlay p { /* Hover over the boxes */
+    opacity: 1; /* Opacity for the boxes */
 }
 
-.overlay {
-    position:fixed;
+.overlay { /* Flex box for the overlay on the boxes */
+    position:fixed; /* Position the overlay */
     width: 100px;
     height: 50px;
-    background-color: #2f06b515;
+    background-color: #2f06b515; /* Background color for the overlay */
     backdrop-filter:blur(1px);
     align-items: center;
-    transform: translateY(2%);
+    transform: translateY(2%); /* Transform the overlay */
     transition: all 1s ease;
     padding: 70px;
     border-radius: 12%;
-    z-index: -1;
-    opacity:0;
+    z-index: -1; /* Z-index for the overlay */
+    opacity:0; /* Opacity for the overlay, set to 0 normally unless hovered over*/
     
 }
 
-.overlay p {
+.overlay p { /* Flex box for the overlay text on the boxes */
     margin: 0;
     font-size: 16px;
     text-align: center;
-    
-    opacity: 0;
+    opacity: 0; /* Opacity for the overlay text, set to 0 normally unless hovered over*/
     color: rgb(255, 255, 255)
 }
